@@ -1,6 +1,6 @@
 ## So sánh các hệ điều hành phổ biến Windows, Linux, MacOs dưới góc nhìn của người dùng và nhà phát triển
 
-## Quá trình hình thành và phát triển của các hệ điều hành phổ biến hiện nay
+### Khung xương
     1. Tổng quan về các hệ điều hành phổ biến hiện nay
        1. Hệ điều hành là gì
        2. Hệ điều hành gồm những thành phần cơ bản nào
@@ -34,3 +34,5 @@
        3. MacOS
        4, Tổng kết <Bảng>
     5. Nguồn và tài liệu tham khảo
+
+### Nội dung chính cho từng phần
