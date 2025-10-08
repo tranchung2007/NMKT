@@ -35,7 +35,9 @@
 
 #### 1.1:
 - Nếu theo khối ngành công nghệ thông tin thì chắc hẳn bạn cũng có một chút mường tượng về cách mà một chương trình hoạt động. Vậy chuyện gì thực sự xảy ra khi một phần mềm chạy ? Rất đơn giản, khi một chương trình chạy trong hệ thống, nó làm duy nhất một điều đó chính là: **thực thi các mã lệnh (executes instructions)**. Một chương trình có thể được coi là tập hợp các mã lệnh, Khi chương trình bắt đầu chạy, vi xử lí sẽ lấy(fetchs) mã lệnh từ bộ nhớ, giải mã(decodes), xong rồi thực thi(executes), quá trình này lặp đi lặp lại cho đến khi chương trình kết thúc. Tuy nhiên,  nếu chương trình được viết theo cách đấy thì sẽ gây khó khăn rất lớn bởi nhà phát triển sẽ phải học cả cách làm việc chuyên sâu với cả phần cứng lẫn phần mềm. Chính vì điều đó mà hệ điều hành ra đời, giống như phần thân của chương trình, nó khiến cho chương trình dễ dàng chạy hơn(easy-to-run), cho phép chương trình truy cập bộ nhớ, giao tiếp với các thiết bị phần cứng, hoặc những việc tương tự.
-  - Nói tóm lại, Hệ điểu hành(Operating System) là 1 loại phần mềm hệ thống, có nhiệm vụ chính là kiểm tra, kiểm soát nhằm chắc chắn rằng hệ thống hoạt động chính xác và hiệu quả đúng mong muốn.
+
+- Nói tóm lại, Hệ điểu hành(Operating System) là 1 loại phần mềm hệ thống, có nhiệm vụ chính là kiểm tra, kiểm soát nhằm chắc chắn rằng hệ thống hoạt động chính xác và hiệu quả đúng mong muốn.
+
 -
 
 #### 1.2:
