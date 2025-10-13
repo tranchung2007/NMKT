@@ -2,6 +2,7 @@
 
 ### Khung xương
 ***TODO: Điều chỉnh bộ khung sao cho hợp lý***
+
     1. Tổng quan về các hệ điều hành phổ biến hiện nay
        1. Hệ điều hành là gì
        2. Hệ điều hành gồm những thành phần cơ bản nào, cách mà hệ điều hành hoạt động
