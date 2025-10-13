@@ -1,6 +1,7 @@
 ## So sánh các hệ điều hành phổ biến Windows, Linux, MacOs dưới góc nhìn của người dùng và nhà phát triển
 
 ### Khung xương
+
 ***TODO: Điều chỉnh bộ khung sao cho hợp lý***
 
     1. Tổng quan về các hệ điều hành phổ biến hiện nay
@@ -43,6 +44,7 @@
 - Nhằm giúp cho lập trình viên bớt đau khổ, hệ điều hành đã tiến hóa trở thành một trung gian giữa phần mềm và phần cứng(ở đây là các thiết bị ngoại vi). Hệ điều hành sẽ cung cấp software abstraction(tạm gọi là lớp trìu tượng) sẽ trìu tượng hóa mối quan hệ giữa phần mềm và phần cứng thông qua các API(ta có thể tạm coi là những luật lệ cụ thể quy ước giữa hệ điều hành và phần ) hoặc là các system call, cái mà chung ta ngày nay gọi là Device Drivers. Chúng sẽ cho phép lập trình viên "nói chuyện" với đầu vào và đầu ra cả phần cứng(I/O), thông qua một quy chuẩn chung duy nhất. Một hệ diều hành tiêu chuẩn sẽ có vài trăm syscall để cho ứng dụng sử dụng. Ta đôi khi cũng có thể nói rằng, hệ điều hành cung cấp một thư viện tiêu chuẩn(standard library) cho các ứng dụng.
 - Vào cuối những năm 50, đại học Manchester(Anh) đã bắt đầu làm việc với siêu máy tính Atlas. Do chiếc máy này vô cùng nhanh, họ đã phải tìm cách làm sao để tối đa hóa công năng của chiếc máy cực kỳ đắt tiền này. Lời giải cho bài toán đó là một chương trình mang tên Atlas Supervisor(AS) được hoàn thiện vào năm 1962, phần mềm này cho phép chiếc máy chạy cùng lúc vài chương trình trên duy nhất một CPU. Thực tế, nó có thể chạy nhiều chương trình tính toán, đồng thời in ra kết quả, và đồng thời đọc dữ liệu đầu vào, tất cả diễn ra cùng một lúc. Khả năng này là cái mà chúng ta vẫn gọi là tính năng Đa Nhiệm(Multi Tasking), là điều cơ bản mà tất cả các máy tính bây giờ đều có, nhưng thời đó đây là một phát kiến vĩ đại, một bước tiến quan trọng trong lịch sử của hệ điều hành. AS cũng được nhiều người coi ràng là hệ điều hành hiện đại(modern OS) đầu tiên.
 - Để hỗ trợ cho việc chạy nhiều ứng dụng cùng một lúc, hệ điều hành đã được cải tiến với tính năng Ảo hóa Bộ nhớ (virtualization memory), nói đơn giản là việc cấp phát bộ nhớ sẽ do hệ điều hành đảm nhận, nó sẽ tạo ra các bộ nhớ ảo từ bộ nhớ vật lý và cho ứng dụng sử dụng các phần bộ nhớ ảo đó để hoạt động. Vấn đề là tại sao phải làm như thế, chẳng phải cứ để chương trình chạy tự do là được rồi hay sao, hoàn toàn không có vấn đề gì hết? Đúng vậy, chương trình thì không có vấn đề gì cả, thứ gặp vấn đề chính là các nhà phát triển. Nhiều chương trình chạy cùng lúc mà mỗi chương trình lại chạy sang những vùng nhớ khác nhau, không theo quy luật nào cả, điều này khiến cho nhà phát triển rất khó để có thể theo dõi và sửa lỗi. Hệ điều hành bắt các chương trình chạy trong các vùng bộ nhớ ảo đã được cho sẵn để người dùng dễ dàng quản lý ứng dụng đang chạy, việc truy vết dữ liệu cũng trở nên đơn giản hơn.
+
 ***TODOS: hoàn thiện Virtual Memory và Memory Protection***
 
 - Ngoài ra hệ điều hành còn đảm nhận công việc quản lý bộ nhớ với tính năng Ảo hóa bộ nhớ ...
