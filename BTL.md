@@ -48,9 +48,9 @@
 - Ngoài ra hệ điều hành còn đảm nhận công việc quản lý bộ nhớ với tính năng Ảo hóa bộ nhớ ...
 - Đi cùng với VM, còn có cả tính năng Memory Protection ...
 
-***TODO: Điều chỉnh phần dưới cho hợp lý***
+***TODO: Điều chỉnh phần dưới cho hợp lý, sửa xóa cho thích hợp***
 
-    + Nếu theo khối ngành công nghệ thông tin thì chắc hẳn bạn cũng có một chút mường tượng về cách mà một chương trình hoạt động. Vậy chuyện gì thực sự xảy ra khi một phần mềm chạy ? Rất đơn giản, khi một chương trình chạy trong hệ thống, nó làm duy nhất một điều đó chính là: **thực thi các mã lệnh (executes instructions)**. Một chương trình có thể được coi là tập hợp các mã lệnh, khi chương trình bắt đầu chạy, vi xử lí sẽ lấy(fetchs) mã lệnh từ bộ nhớ, giải mã(decodes), xong rồi thực thi(executes), quá trình này lặp đi lặp lại cho đến khi chương trình kết thúc.
+- Nếu theo khối ngành công nghệ thông tin thì chắc hẳn bạn cũng có một chút mường tượng về cách mà một chương trình hoạt động. Vậy chuyện gì thực sự xảy ra khi một phần mềm chạy ? Rất đơn giản, khi một chương trình chạy trong hệ thống, nó làm duy nhất một điều đó chính là: **thực thi các mã lệnh (executes instructions)**. Một chương trình có thể được coi là tập hợp các mã lệnh, khi chương trình bắt đầu chạy, vi xử lí sẽ lấy(fetchs) mã lệnh từ bộ nhớ, giải mã(decodes), xong rồi thực thi(executes), quá trình này lặp đi lặp lại cho đến khi chương trình kết thúc.
 
 - Tuy nhiên,  nếu chương trình được viết theo cách đấy thì sẽ gây khó khăn rất lớn bởi nhà phát triển sẽ phải học cả cách làm việc chuyên sâu với cả phần cứng lẫn phần mềm. Chính vì điều đó mà hệ điều hành ra đời, giống như phần thân của chương trình, nó khiến cho chương trình dễ dàng chạy hơn(easy-to-run), cho phép chương trình truy cập bộ nhớ, giao tiếp với các thiết bị phần cứng, hoặc những việc tương đương. Hệ điều hành còn cung cấp một số tính năng giúp cho việc sử dụng máy tính an toàn và hiệu quả hơn vd: Cấp phát bộ nhớ tự động(Dynamic Memory Allocation), Protected Memory(bảo vệ bộ nhớ), Đa nhiệm(Multi Threading), 
 
