@@ -33,6 +33,9 @@
 
     5. Nguồn và tài liệu tham khảo
        - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf)
+       - [Batch Processing](https://en.wikipedia.org/wiki/Batch_processing)
+       - [Virtual Memory](https://en.wikipedia.org/wiki/Virtual_memory)
+       - [Memory Protection](https://en.wikipedia.org/wiki/Memory_protection)    
 
 ### Nội dung chi tiết cho từng phần
 
