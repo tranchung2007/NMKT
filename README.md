@@ -1,2 +1,3 @@
 #### Cấu trúc
-+ BTL.md: Đề mục chính, kèm nội dung chính của từng phần
++ BTL_rewrite.md: Tất cả nội dung
++ BTL_rewrite.txt: Nội dung nhưng mà là file txt

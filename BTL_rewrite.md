@@ -26,6 +26,14 @@
 				++ PCP (Primary Control Program): Một phiên bản đơn giản, đơn nhiệm dành cho các máy có bộ nhớ thấp, về cơ bản là sự tiếp nối của mô hình xử lý theo lô.
 				++ MFT (Multiprogramming with a Fixed number of Tasks): Triển khai đa chương bằng cách chia bộ nhớ thành một số lượng phân vùng (partition) cố định khi khởi động hệ thống. Mỗi phân vùng có thể chứa một công việc. Cách tiếp cận này tuy ổn định nhưng không linh hoạt và có thể lãng phí bộ nhớ nếu một công việc không sử dụng hết phân vùng của nó.
 				++ MVT (Multiprogramming with a Variable number of Tasks): Phiên bản tiên tiến nhất. Nó coi bộ nhớ như một vùng chung duy nhất, cấp phát các vùng (region) có kích thước thay đổi cho các công việc khi cần. Điều này hiệu quả hơn về mặt sử dụng bộ nhớ so với MFT nhưng lại giới thiệu một vấn đề mới: sự phân mảnh bộ nhớ (memory fragmentation), nơi các khối bộ nhớ trống bị phân tán, không đủ lớn để nạp một công việc mới mặc dù tổng dung lượng trống là đủ. 
-
-
+            - Một ví dụ tiêu biều khác là CTSS của MIT
+                + Trong khi IBM đang phát triển OS/360, một hướng đi khác đã được theo đuổi tại MIT. Hệ thống Chia sẻ Thời gian Tương thích (CTSS), được trình diễn lần đầu vào năm 1961, có một mục tiêu khác: tối ưu hóa năng suất của lập trình viên.
+                + CTSS (Compatible Time-Sharing System) cho phép nhiều người dùng tương tác với máy tính từ các thiết bị đầu cuối từ xa. Hệ điều hành lúc này sẽ cấp cho mỗi người dùng một phần CPU nhỏ theo kiểu xoay vòng (round-robin). Việc chuyển đổi diễn này ra nhanh đến mức tạo ra ảo giác rằng mỗi người dùng đều có một máy tính riêng cho mình. Lúc này mỗi người dùng sẽ chạy chương trình của riêng mình, nhiều chương trình sẽ được chạy cùng một lúc, tối ưu đối đa hiệu năng của máy.
+                + Tuy nhiên để thực hiện điều này, CTSS đòi hỏi những sửa đổi phần cứng đáng kể cho máy IBM 7094, các kĩ sư tại MIT đã phải thiết kế thêm một vài cơ chế:
+                    ++ Bảo vệ bộ nhớ: Ngăn không cho tiến trình (process) của người dùng xung đột với nhau đồng thời tăng cường bảo mật, tránh cho người dùng này can thiệp vào tiến trình của người khác.
+                    TODO: ...
+                    ++ Tái định vị thanh ghi (relocation registers):
+                    ++ Một bộ đếm thời gian ngắt quãng (interval timer):
+                + CTSS cũng đi tiên phong trong các khái niệm mà ngày nay chúng ta coi là điều cơ bản, như thư mục tệp tin cho mỗi người dùng, đăng nhập bằng mật khẩu và hệ thống nhắn tin giữa người dùng (tiền thân của email).
+        - Như vậy ta có thể thấy rằng trong những năm 1960 đã chứng kiến sự phân tách triết học lớn đầu tiên trong thiết kế hệ điều hành, tạo ra hai con đường tiến hóa riêng biệt. 
 1.2: 
